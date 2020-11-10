@@ -10,8 +10,9 @@ class App extends Component {
       <Router>
         <Switch>
           <Route path="/" exact component={HomePage} />
-          <Route path="/tickets/:ticketID" component={TicketPage} />
+          <Route path="/tickets/:ticketID" exact component={TicketPage} />
           <Route path="*" component={ErrorPage} />
+          <Route path="/tickets/:ticketID/*" component={ErrorPage} />
         </Switch>
       </Router>
     );
