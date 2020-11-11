@@ -12,12 +12,12 @@ export default ({ ticketsPerPage, totalTickets, paginate }) => {
             <ul className="pagination">
                 {pageNumbers.map(number => (
                     <li key={number} className="page-item">
-                        <a style={{ cursor: 'pointer' }} onClick={() => paginate(number)} className="page-link">
+                        <div style={{ cursor: "pointer" }} onClick={() => paginate(number)} className="page-link">
                             {number}
-                        </a>
+                        </div>
                     </li>
                 ))}
             </ul>
         </nav>
-    )
+    );
 }

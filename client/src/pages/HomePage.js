@@ -29,13 +29,11 @@ class HomePage extends Component {
         .then(res => res.json())
         .then(tickets => {
             if(tickets.errorMessage) {
-                // console.log(tickets.errorMessage);
                 this.setState({ errorFlag: true });
                 this.setState({ loading: false });
                 this.setState({ errorMessage: tickets.errorMessage });
             } else {
                 this.setState({ tickets });
-                // console.log('Fetched ' + this.state.tickets);
                 this.setState({ loading: false });
                 
             }

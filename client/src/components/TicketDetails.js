@@ -13,32 +13,32 @@ export default ({ ticket }) => {
 
     const items = [
         {
-            header: "ID",
+            header: 'ID',
             description: id,
             style: { width: "60px" }
         },
         {
-            header: "Subject",
+            header: 'Subject',
             description: subject,
             style: { width: "339px" }
         },
         {
-            header: "Created at",
-            description: "Date: " + (created_at + "").substring(0, 10) + " | Time: " + (created_at + "").substring(11, 16),
+            header: 'Created at',
+            description: 'Date: ' + (created_at + '').substring(0, 10) + ' | Time: ' + (created_at + '').substring(11, 16),
             style: { width: "300px" }
         },
         {
-            header: "Priority",
-            description: (priority == null) ? "Not Specified" : priority,
+            header: 'Priority',
+            description: (priority == null) ? 'Not Specified' : priority,
             style: { width: "175px" }
         },
         {
-            header: "Status",
+            header: 'Status',
             description: status,
             style: { width: "165px" }
         },
         {
-            header: "Description",
+            header: 'Description',
             description: description,
             style: { width: "1094px" }
         }

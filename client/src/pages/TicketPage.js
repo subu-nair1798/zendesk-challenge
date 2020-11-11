@@ -10,7 +10,7 @@ class TicketPage extends Component {
         ticket: [],
         loading: false,
         errorFlag: false,
-        errorMessage: ""
+        errorMessage: ''
     }
 
     componentDidMount() {
@@ -28,9 +28,7 @@ class TicketPage extends Component {
                 this.setState({ loading: false });
                 this.setState({ errorMessage: ticket.errorMessage });
             } else {
-                console.log(ticket.totalTickets);
                 this.setState({ ticket });
-                // console.log('Fetched Ticket ' + this.props.match.params.ticketID + ":" + this.state.ticket);
                 this.setState({ loading: false });
             }
         });
@@ -48,7 +46,7 @@ class TicketPage extends Component {
                                 <TicketDetails ticket={this.state.ticket} /> 
                                 <hr />
                                 <Link to="/">
-                                    <div style={{ color: "#FFFFFF", background: "#000000" }} className="btn btn-dark">
+                                    <div style={{ color: "#FFFFFF", background: "#000000" }} className="btn">
                                         <b>Back</b>
                                     </div>
                                 </Link>

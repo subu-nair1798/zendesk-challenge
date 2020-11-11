@@ -22,7 +22,7 @@ app.get('/tickets/:ticketID', (req, res) => {
         if(response.name == 'Error') {
             res.json({ errorMessage: `Unable to fetch the details of Ticket ${req.params.ticketID}!!! :(` });
         } else if(response.length == 0 || req.params.ticketID > response.length || req.params.ticketID < 1 || !(!isNaN(parseFloat(req.params.ticketID)) && !isNaN(req.params.ticketID - 0)) ){
-            res.json({ errorMessage: "Error 404: Bad URL!!! :(" });
+            res.json({ errorMessage: 'Error 404: Bad URL!!! :(' });
         } else {
             currentTicket = response[req.params.ticketID - 1];
             res.json(currentTicket);
@@ -42,7 +42,6 @@ function getTickets () {
     .then(response => {
         return response.data.tickets;
     }).catch(error => {
-        // console.log('Unable to fetch Tickets! ' + error);
         return error;
     });
 }

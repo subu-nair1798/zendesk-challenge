@@ -11,7 +11,7 @@ export default ({ tickets, loading }) => {
                 <a href={`/tickets/${ticket.id}`} key={ticket.id} className="list-group-item">
                     <b>{ticket.id}. </b>
                     <b>{ticket.subject}</b>
-                    <div className="float-right">{(ticket.created_at + "").substring(0, 10) + " | " + (ticket.created_at + "").substring(11, 16)}</div>
+                    <div className="float-right">{(ticket.created_at + '').substring(0, 10) + ' | ' + (ticket.created_at + '').substring(11, 16)}</div>
                 </a>
             ))}
         </ul>
