@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicketDetails /> should render Card Group 1`] = `
+<CardGroup
+  items={
+    Array [
+      Object {
+        "description": 1,
+        "header": "ID",
+        "style": Object {
+          "width": "60px",
+        },
+      },
+      Object {
+        "description": "Sample ticket: Meet the ticket",
+        "header": "Subject",
+        "style": Object {
+          "width": "339px",
+        },
+      },
+      Object {
+        "description": "Date: 2020-11-06 | Time: 17:31",
+        "header": "Created at",
+        "style": Object {
+          "width": "300px",
+        },
+      },
+      Object {
+        "description": "normal",
+        "header": "Priority",
+        "style": Object {
+          "width": "175px",
+        },
+      },
+      Object {
+        "description": "open",
+        "header": "Status",
+        "style": Object {
+          "width": "165px",
+        },
+      },
+      Object {
+        "description": "Hi Subramaniam,
+
+This is your first ticket. Ta-da! Any customer request sent to your supported channels (email, chat, voicemail, web form, and tweet) will become a Support ticket, just like this one. Respond to this ticket by typing a message above and clicking Submit. You can also see how an email becomes a ticket by emailing your new account, support@subkaz.zendesk.com. Your ticket will appear in ticket views.
+
+That's the ticket on tickets. If you want to learn more, check out: 
+https://support.zendesk.com/hc/en-us/articles/203691476
+",
+        "header": "Description",
+        "style": Object {
+          "width": "1094px",
+        },
+      },
+    ]
+  }
+/>
+`;

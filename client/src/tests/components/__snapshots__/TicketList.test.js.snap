@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<TicketList /> renders sample tickets 1`] = `
+exports[`<TicketList /> renders unordered Ticket List 1`] = `
 <ul
   className="list-group mb-4"
 >

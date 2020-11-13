@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> render Pagination component 1`] = `
+<nav>
+  <ul
+    className="pagination"
+  >
+    <li
+      className="page-item"
+      key="1"
+    >
+      <div
+        className="page-link"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        1
+      </div>
+    </li>
+  </ul>
+</nav>
+`;

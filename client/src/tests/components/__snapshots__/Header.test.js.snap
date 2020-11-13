@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders Page Header 1`] = `
+<Menu
+  style={
+    Object {
+      "marginTop": "15px",
+    }
+  }
+>
+  <MenuItem>
+    <Link
+      to="/"
+    >
+      Zendesk Ticket Viewer
+    </Link>
+  </MenuItem>
+  <MenuMenu
+    position="right"
+  >
+    <MenuItem>
+      <Link
+        to="/"
+      >
+        Home
+      </Link>
+    </MenuItem>
+  </MenuMenu>
+</Menu>
+`;

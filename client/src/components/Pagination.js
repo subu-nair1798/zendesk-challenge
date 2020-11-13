@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({ ticketsPerPage, totalTickets, paginate }) => {
+const Pagination = ({ ticketsPerPage, totalTickets, paginate }) => {
     const pageNumbers = [];
 
     for(let i = 1; i <= Math.ceil(totalTickets / ticketsPerPage); i++) {
@@ -21,3 +21,5 @@ export default ({ ticketsPerPage, totalTickets, paginate }) => {
         </nav>
     );
 }
+
+export default Pagination;

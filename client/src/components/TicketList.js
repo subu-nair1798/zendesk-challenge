@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({ tickets, loading }) => {
+const TicketList = ({ tickets, loading }) => {
     if(loading) {
         return <h3>Loading...</h3>
     }
@@ -17,3 +17,5 @@ export default ({ tickets, loading }) => {
         </ul>
     );
 }
+
+export default TicketList;
