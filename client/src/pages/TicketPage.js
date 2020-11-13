@@ -6,11 +6,14 @@ import { Link } from 'react-router-dom';
 
 class TicketPage extends Component {
 
-    state = {
-        ticket: [],
-        loading: false,
-        errorFlag: false,
-        errorMessage: ''
+    constructor() {
+        super();
+        this.state = {
+            ticket: [],
+            loading: false,
+            errorFlag: false,
+            errorMessage: ''
+        };
     }
 
     componentDidMount() {

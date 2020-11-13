@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicketList /> renders sample tickets 1`] = `
+<ul
+  className="list-group mb-4"
+>
+  <a
+    className="list-group-item"
+    href="/tickets/1"
+    key="1"
+  >
+    <b>
+      1
+      . 
+    </b>
+    <b>
+      Sample ticket: Meet the ticket
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-06 | 17:31
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/2"
+    key="2"
+  >
+    <b>
+      2
+      . 
+    </b>
+    <b>
+      velit eiusmod reprehenderit officia cupidatat
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:49
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/3"
+    key="3"
+  >
+    <b>
+      3
+      . 
+    </b>
+    <b>
+      excepteur laborum ex occaecat Lorem
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:49
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/4"
+    key="4"
+  >
+    <b>
+      4
+      . 
+    </b>
+    <b>
+      ad sunt qui aute ullamco
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:49
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/5"
+    key="5"
+  >
+    <b>
+      5
+      . 
+    </b>
+    <b>
+      aliquip mollit quis laborum incididunt
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:49
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/6"
+    key="6"
+  >
+    <b>
+      6
+      . 
+    </b>
+    <b>
+      nisi aliquip ipsum nostrud amet
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:49
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/7"
+    key="7"
+  >
+    <b>
+      7
+      . 
+    </b>
+    <b>
+      cillum quis nostrud labore amet
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:49
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/8"
+    key="8"
+  >
+    <b>
+      8
+      . 
+    </b>
+    <b>
+      proident est nisi non irure
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:50
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/9"
+    key="9"
+  >
+    <b>
+      9
+      . 
+    </b>
+    <b>
+      veniam ea eu minim aute
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:50
+    </div>
+  </a>
+  <a
+    className="list-group-item"
+    href="/tickets/10"
+    key="10"
+  >
+    <b>
+      10
+      . 
+    </b>
+    <b>
+      magna reprehenderit nisi est cillum
+    </b>
+    <div
+      className="float-right"
+    >
+      2020-11-07 | 19:50
+    </div>
+  </a>
+</ul>
+`;
