@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'semantic-ui-react';
 
-const TicketDetail = ({ ticket }) => {
+const TicketDetails = ({ ticket }) => {
     const {
         id,
         created_at,
@@ -47,4 +47,4 @@ const TicketDetail = ({ ticket }) => {
     return( <Card.Group items={items} /> );
 }
 
-export default TicketDetail;
+export default TicketDetails;

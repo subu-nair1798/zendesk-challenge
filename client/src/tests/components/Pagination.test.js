@@ -11,7 +11,7 @@ describe('<Pagination />', () => {
         expect(wrapper).toMatchSnapshot();
     });
 
-    it('should create a single page button for a sample response of 10 tickets', () => {
+    it('should create a single page button for a sample response of 10 tickets (< 25)', () => {
         const paginate = (pageNumber) => this.setState({ currentPage: pageNumber });
         const wrapper = shallow(<Pagination ticketsPerPage={25} totalTickets={sampleResponse.tickets.length} paginate={paginate} />);
         expect(wrapper.find('.pagination').children()).toHaveLength(1);
