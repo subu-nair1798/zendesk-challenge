@@ -11,7 +11,7 @@ Tech Stack :
 ![Home Page](homePage.png)
 *Home Page*
 
-![Home Page](ticketDetailsPage.png)
+![Ticket Details Page](ticketDetailsPage.png)
 *Ticket Details Page*
 
 ## Prerequisites
@@ -92,11 +92,11 @@ As a response to Task 5, I have implemented a current and in-use React testing f
 
 ### Task 6
 
-
+ 
 
 ### Task 7
 
-Using Promise-based HTTP clients like ```axios``` for the server-side and ```fetch API``` for the client-side, streamlined the process of error handling in case of request / response errors. Further, the use of ```react-router-dom``` elegantly handled bad paths by displaying friendly error messages and also guiding the user back to safe paths.
+Using Promise-based HTTP clients, like ```axios``` for the server-side and ```fetch API``` for the client-side, streamlined the process of error handling in case of request / response errors. Further, the use of ```react-router-dom``` elegantly handled bad paths by displaying friendly error messages and also guiding the user back to safe paths.
 
 
 

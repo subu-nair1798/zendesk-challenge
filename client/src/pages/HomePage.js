@@ -35,7 +35,6 @@ class HomePage extends Component {
             } else {
                 this.setState({ tickets });
                 this.setState({ loading: false });
-                
             }
         });
     }
@@ -55,7 +54,7 @@ class HomePage extends Component {
                             <div>
                                 <h2>Active Tickets</h2>
                                 <hr />
-                                <TicketList tickets={currentTickets} loading={this.state.loading} />
+                                <TicketList firstTicket={indexOfFirstTicket} tickets={currentTickets} loading={this.state.loading} />
                                 <Pagination ticketsPerPage={this.state.ticketsPerPage} totalTickets={this.state.tickets.length} paginate={paginate} />
                             </div>
                         ) : (
