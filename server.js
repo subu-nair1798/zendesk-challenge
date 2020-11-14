@@ -21,7 +21,7 @@ app.get('/tickets/:ticketID', (req, res) => {
     getTickets().then(response => {
         if(response.name == 'Error') {
             res.json({ errorMessage: `Unable to fetch the details of Ticket ${req.params.ticketID}!!! :(` });
-        } else if(response.length == 0 || req.params.ticketID > response[response.length - 1].id || req.params.ticketID < 1 || !(!isNaN(parseFloat(req.params.ticketID)) && !isNaN(req.params.ticketID - 0)) ){
+        } else if(response.length == 0 || response[req.params.ticketID - 1] == null || req.params.ticketID < 1 || !(!isNaN(parseFloat(req.params.ticketID)) && !isNaN(req.params.ticketID - 0)) ){
             res.json({ errorMessage: 'Error 404: Bad URL!!! :(' });
         } else {
             currentTicket = response[req.params.ticketID - 1];
@@ -32,7 +32,7 @@ app.get('/tickets/:ticketID', (req, res) => {
 
 function getTickets () {
     return axios({
-        url: 'https://subkaz.zendesk.com/api/v2/tickets.json',
+        url: 'https://subkaz.zendesk.com/api/v2/incremental/tickets.json?start_time=1604683800',
         method: 'get',
         auth: {
             username: 'subunair17@gmail.com',
@@ -40,7 +40,8 @@ function getTickets () {
         }
     })
     .then(response => {
-        return response.data.tickets;
+        let sortedResponse = response.data.tickets.sort((a, b) => {return a.id - b.id});
+        return sortedResponse;
     }).catch(error => {
         return error;
     });
