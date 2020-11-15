@@ -59,7 +59,7 @@ Go to the root directory i.e. *zendesk-challenge* and run :
 npm run dev
 ```
 
-```concurrently``` simultaneously runs a server-side and clients-side script.
+```concurrently``` simultaneously runs a server-side and client-side script.
 
 ## Tests
 
