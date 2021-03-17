@@ -35,7 +35,7 @@ function getTickets () {
         url: 'https://subkaz.zendesk.com/api/v2/incremental/tickets.json?start_time=1604683800',
         method: 'get',
         auth: {
-            username: 'subunair17@gmail.com',
+            username: 'email',
             password: 'pass'
         }
     })
