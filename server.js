@@ -36,7 +36,7 @@ function getTickets () {
         method: 'get',
         auth: {
             username: 'subunair17@gmail.com',
-            password: 'nsr251719'
+            password: 'pass'
         }
     })
     .then(response => {
